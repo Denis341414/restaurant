@@ -15,7 +15,7 @@ import { InputText } from "primevue";
 .wrapper::after {
   position: absolute;
   content: url(../assets/Frame.png);
-  left: 3%;
+  left: 12%;
   top: 15%;
   cursor: pointer;
 }

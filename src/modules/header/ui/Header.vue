@@ -7,7 +7,7 @@ import theme from "../assets/theme.svg";
 
 <template>
   <div
-    class="wrapper w-full bg-[#FFFFFF14] h-14 flex items-center justify-between !px-8"
+    class="wrapper w-full bg-[#FFFFFF14] h-14 flex items-center justify-between"
   >
     <div class="logo">AIRESTO | Супра</div>
     <div class="cont flex gap-4 items-center">
