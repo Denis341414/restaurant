@@ -7,8 +7,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-size: 11px;
 }
 
 .p-button {
   background-color: #ffffff14 !important;
+  color: #fff !important;
+  border: none !important;
 }

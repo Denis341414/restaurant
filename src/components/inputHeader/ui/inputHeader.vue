@@ -3,9 +3,20 @@ import { InputText } from "primevue";
 </script>
 
 <template>
-  <div class="wrapper">
-    <InputText class="h-[30px] w-[256px]" />
+  <div class="wrapper relative">
+    <InputText
+      class="!pl-10 h-[25px] w-[256px]"
+      placeholder="⌘+Л поиск по имени"
+    />
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.wrapper::after {
+  position: absolute;
+  content: url(../assets/Frame.png);
+  left: 3%;
+  top: 15%;
+  cursor: pointer;
+}
+</style>
